@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  text-align: center; /*this works only on full block element and inline element  if a block element is set to a width it wont work
+    
+    but in inline element the one which are place one after the another it displaces each other but this can be corrected by removing one of them out of flow by setting postion absolute */
+  /* font-family: Helvetica Neue,Helvetica,Arial,sans-serif; here most of the windows dont have a helvetica neue so it displays helvetica the one after that 
+    font-family: Helvetica Neue; it displays the default serif font in this case*/
+  font-family: "Merriweather", serif;
+  background-color: #f8f4f4;
+}
+
+h1 {
+  font-size: 4.6875rem; /*dynamic sizing we use % or em now 100% in font size means 16px also 1em means 16px therefor  75px =4.6875em=4.6875% 
+    we use rem which helps to ignore all parent setting and set it to the relative to root 
+    rem most adaptable and most realiable and lesss error*/
+  margin-top: 0;
+  font-family: "Sacramento", cursive;
+  margin: 50px auto 0 auto;
+  color: #66bfbf;
+  line-height: 2;
+
+  /*width: 25%;
+    margin: 0 auto 0 auto ; always goes in clock wise top right bottom left
+    margin: 0 auto; for 2 values its top-bottom, left left-right*/
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: normal; /*this normal fornt weight helped us to remove the bold default of h2 property*/
+}
+
+h3 {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+}
+
+.top-container {
+  background-color: #eaf6f6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-clould {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+.bottom-clould {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.profile {
+  width: 30%;
+  margin: 80px auto;
+}
+.mypic {
+  width: 45%;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted;
+  border-width: 8px;
+  border-bottom: none;
+  width: 5%;
+  color: #d5f1f1;
+  margin: 100px auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.comppng {
+  width: 30%;
+  float: left; /*it is  a property to make the image float around and so that the text wraps around the image*/
+  margin: 10px 30px 0 0;
+}
+.chillipng {
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+}
+/*NOTE:- float is most commonly used and abused CSS properties it is only recommended to use when its necessary USE IT FOR WHAT ITS MEANT
+dont use it for positioning use it only for wraping ur text for positioning margin padding relative absolute are there
+*/
+/*
+this was just to show the clear property i havent removed the class from para tag so u can remove the comments and try it 
+.code_para{
+    clear: left;   here clear act as an anti float property 
+}
+
+.chilli_para{
+    clear: right;
+}
+*/
+
+.contact-me {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.footer-link {
+  color: #108b8f;
+  margin: 50px;
+  display: inline-block;
+}
+.footer-link:hover {
+  color: #eaf6f6;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  height: 200px;
+  font-family: "Montserrat", sans-serif;
+}
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.85rem;
+}
+
+.lastmsg {
+  width: 50%;
+  margin: 30px auto 50px; /*top right-left bottom*/
+}
+
+.btn {
+  display: inline-block;
+  margin-bottom: 100px;
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 20px;
+  padding: 10px 15px 10px 15px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
