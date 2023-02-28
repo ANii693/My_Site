@@ -85,12 +85,12 @@ hr {
 }
 
 .comppng {
-  width: 30%;
+  width: 20%;
   float: left; /*it is  a property to make the image float around and so that the text wraps around the image*/
   margin: 10px 30px 0 0;
 }
 .chillipng {
-  width: 30%;
+  width: 20%;
   float: right;
   margin-left: 30px;
 }
