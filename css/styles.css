@@ -120,6 +120,7 @@ this was just to show the clear property i havent removed the class from para ta
 }
 .footer-link:hover {
   color: #eaf6f6;
+  text-decoration: none;
 }
 
 .bottom-container {
