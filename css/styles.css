@@ -1,34 +1,24 @@
 body {
   margin: 0;
-  text-align: center; /*this works only on full block element and inline element  if a block element is set to a width it wont work
-    
-    but in inline element the one which are place one after the another it displaces each other but this can be corrected by removing one of them out of flow by setting postion absolute */
-  /* font-family: Helvetica Neue,Helvetica,Arial,sans-serif; here most of the windows dont have a helvetica neue so it displays helvetica the one after that 
-    font-family: Helvetica Neue; it displays the default serif font in this case*/
+  text-align: center; 
   font-family: "Merriweather", serif;
   background-color: #f8f4f4;
 }
 
 h1 {
-  font-size: 4.6875rem; /*dynamic sizing we use % or em now 100% in font size means 16px also 1em means 16px therefor  75px =4.6875em=4.6875% 
-    we use rem which helps to ignore all parent setting and set it to the relative to root 
-    rem most adaptable and most realiable and lesss error*/
+  font-size: 4.6875rem; 
   margin-top: 0;
   font-family: "Sacramento", cursive;
   margin: 50px auto 0 auto;
   color: #66bfbf;
   line-height: 2;
-
-  /*width: 25%;
-    margin: 0 auto 0 auto ; always goes in clock wise top right bottom left
-    margin: 0 auto; for 2 values its top-bottom, left left-right*/
 }
 
 h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
   color: #66bfbf;
-  font-weight: normal; /*this normal fornt weight helped us to remove the bold default of h2 property*/
+  font-weight: normal; 
 }
 
 h3 {
@@ -86,7 +76,7 @@ hr {
 
 .comppng {
   width: 20%;
-  float: left; /*it is  a property to make the image float around and so that the text wraps around the image*/
+  float: left; 
   margin: 10px 30px 0 0;
 }
 .chillipng {
@@ -94,20 +84,6 @@ hr {
   float: right;
   margin-left: 30px;
 }
-/*NOTE:- float is most commonly used and abused CSS properties it is only recommended to use when its necessary USE IT FOR WHAT ITS MEANT
-dont use it for positioning use it only for wraping ur text for positioning margin padding relative absolute are there
-*/
-/*
-this was just to show the clear property i havent removed the class from para tag so u can remove the comments and try it 
-.code_para{
-    clear: left;   here clear act as an anti float property 
-}
-
-.chilli_para{
-    clear: right;
-}
-*/
-
 .contact-me {
   width: 50%;
   margin: 0 auto;
@@ -135,7 +111,7 @@ this was just to show the clear property i havent removed the class from para ta
 
 .lastmsg {
   width: 50%;
-  margin: 30px auto 50px; /*top right-left bottom*/
+  margin: 30px auto 50px; 
 }
 
 .btn {
